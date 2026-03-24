@@ -1,21 +1,23 @@
-# Diabetes Regression Model Comparison using Machine Learning
+# Diabetes Regression Model Comparison
 
-## Overview
-This project compares multiple machine learning regression models on the diabetes dataset. The main objective is to evaluate how different models perform on the same prediction task and to understand the difference between linear and non-linear approaches.
+## Project Overview
+This project presents a comparison of multiple machine learning regression models on the diabetes dataset using Python and scikit-learn.
 
-## Models Used
+The main objective was to evaluate how different regression algorithms perform on the same prediction task and to better understand the difference between linear and non-linear approaches in practical machine learning workflows.
+
+## Models Compared
 - Linear Regression
 - Ridge Regression
 - Lasso Regression
 - Random Forest Regressor
 - HistGradientBoosting Regressor
 
-## Workflow
-- Load and explore the diabetes dataset
-- Split the data into training and testing sets
+## Project Workflow
+- Load and prepare the diabetes dataset
+- Perform train-test split
 - Train multiple regression models
-- Evaluate model performance using standard regression metrics
-- Compare results across models
+- Evaluate model performance
+- Compare results using standard regression metrics
 
 ## Evaluation Metrics
 - Mean Absolute Error (MAE)
@@ -29,14 +31,24 @@ This project compares multiple machine learning regression models on the diabete
 - Matplotlib
 - Scikit-learn
 
-## Key Learning Outcomes
-- Understanding the differences between linear and non-linear regression models
-- Comparing multiple models on the same dataset
-- Using evaluation metrics to assess predictive performance
-- Building a simple and practical machine learning workflow
+## Key Insights
+- Ensemble-based methods performed better than basic linear models on this dataset.
+- HistGradientBoosting achieved the strongest overall performance among the tested models.
+- Model comparison is important because different algorithms can behave very differently on the same dataset.
+
+## Learning Outcomes
+Through this project, I strengthened my understanding of:
+- regression analysis
+- model comparison
+- evaluation metrics
+- practical machine learning workflows in Python
+
+## Repository Contents
+- `diabetes_regression_model_comparison.ipynb` — main notebook
+- project visualizations and result images for presentation/posting
 
 ## Conclusion
-This project provides a practical comparison of regression models for a real prediction task. It helped strengthen understanding of model training, evaluation, and algorithm selection in machine learning.
+This project was a useful hands-on exercise for understanding regression model performance, evaluation, and algorithm selection in machine learning.
 
 ## Author
 Muhammad Umair Bashir
